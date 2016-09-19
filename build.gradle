@@ -1,0 +1,11 @@
+apply plugin: 'idea'
+
+buildscript {
+}
+
+idea {
+    module {
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}

@@ -1,0 +1,9 @@
+include ":composite:api-gateway",
+        ":core:group-service",
+        ":core:location-service",
+        ":core:recommendation-service",
+        ":core:user-service",
+        ":platform:config-server",
+        ":platform:eureka-server",
+        ":platform:hystrix-server",
+        ":platform:zuul-server"
