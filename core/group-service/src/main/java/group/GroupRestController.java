@@ -33,7 +33,8 @@ public class GroupRestController {
         return groups.stream().filter(g -> g.getId() == id).collect(Collectors.toList()).get(0);
     }
 
-    @Value("${configuration.projectName}")
+//    @Value("${configuration.projectName}")
+    @Value("<Project Name>")
     private String projectName;
 
     @RequestMapping("/project-name")
